@@ -1,0 +1,260 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading */
+.big-heading {
+  font-size: 3.4rem;
+	text-align: center;
+}
+.heart {
+  width: 100%;
+	text-align: center;
+  position: relative;
+  animation-name: moving_head;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+}
+@keyframes moving_head {
+  0% {
+    top: 0px;
+  }
+
+  100% {
+    top: 140px;
+  }
+}
+
+.section-heading {
+  font-size: 2.3rem;
+  line-height: 1.5;
+}
+
+/* Container-fluid */
+.container-fluid {
+  padding: 7% 15%;
+
+}
+.wallpaper{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/heart.jpg);
+	height: 600px;
+	background-size: 100% 100%;
+	background-position: center center;
+	animation: shrink infinite 5s alternate;
+	position: relative;
+	color: #ffffff;
+	opacity: 0.95;
+}
+
+.colored-section {
+  background-color: #00B4D8;
+  color: white;
+}
+
+.white-section {
+  background-color: #FFF7E9;
+}
+
+/* Navabr */
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.down-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title section*/
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+
+/* Features */
+.feature-img {
+  font-size: 3.5rem;
+  color: #ef8172;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.feature-box {
+  padding: 5% 3% 3%;
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-text {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.feature-img:hover {
+  color: #00B4D8;
+}
+
+/* Heart Diseasea about */
+#heart {
+  background-color: #00B4D8;
+  postion: absolute;
+  padding: 5%;
+}
+
+.heart-text {
+  font-size: 1.2rem;
+  /* line-height: 0.6rem; */
+  color: #FFF1CE;
+}
+.symptoms{
+  font-size: 1.2rem;
+  text-align: left;
+}
+#symptoms{
+  padding:5%;
+}
+
+
+/* Call to Action  */
+.cta-heading {
+  line-height: 3rem;
+  font-size: 2.5rem;
+}
+
+#predict{
+  padding:5%;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  color: #8f8f8f;
+  line-height: 2rem;
+  height:100px;
+  padding-top: 50px;
+}
+.input {
+	width: 45%;
+	margin-bottom: 10px;
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+  text-align: left;
+}
+.input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+
+
+/* Responsivesness */
+@media (max-width:1028px) {
+  h4 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .big-heading {
+    font-size: 4.8rem;
+  }
+
+  .section-heading {
+    font-size: 3rem;
+  }
+
+  .down-btn {
+    font-size: 2.5rem;
+  }
+
+  .navbar-brand {
+    font-size: 3.4rem;
+  }
+
+  .navbar-toggler {
+    font-size: 3.1rem;
+  }
+
+  .nav-link {
+    font-size: 2.8rem;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0deg);
+    width: 60%
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .feature-img {
+    font-size: 5.5rem;
+  }
+
+  .feature-text {
+    font-size: 2.5rem;
+  }
+
+  .testimonial-img {
+    width: 20%;
+  }
+
+  .testimonial-text {
+    font-size: 3.4rem;
+  }
+
+  .press-logo {
+    width: 19%;
+  }
+
+  #pricing {
+    padding-left: 240px;
+    padding-right: 240px;
+  }
+
+  .price-text {
+    font-size: 2.8rem;
+  }
+
+  .cta-heading {
+    font-size: 3.3rem;
+    line-height: 4rem;
+  }
+}
